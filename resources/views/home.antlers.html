@@ -1,0 +1,25 @@
+{{ foreach:editor }}
+    {{ if value['type'] == 'with_image_tiles' }}
+        {{ partial:hero/with_image_tiles }}
+    {{ /if }}
+
+    {{ if value['type'] == 'with_header_images_and_descriptions' }}
+        {{ partial:product_features/with_header_images_and_descriptions }}
+    {{ /if }}
+
+    {{ if value['type'] == 'simple-grid' }}
+        {{ partial:stats/simple-grid }}
+    {{ /if }}
+
+    {{ if value['type'] == 'image-grid' }}
+        {{ partial:gallery/image-grid }}
+    {{ /if }}
+
+    {{ if value['type'] == 'masonry' }}
+        {{ partial:gallery/masonry }}
+    {{ /if }}
+
+    {{ if value['type'] === 'form' }}
+        {{ partial:forms/form }}
+    {{ /if }}
+{{ /foreach:editor }}

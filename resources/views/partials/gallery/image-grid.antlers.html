@@ -1,0 +1,28 @@
+{{ value }}
+<div class="bg-white py-8 sm:py-16" id="{{ content_id }}">
+    <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
+        <div class="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
+            {{ images[0] }}
+                <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
+            {{ /images[0] }}
+        </div>
+        <div class="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
+            <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+                {{ images[1] }}
+                    <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
+                {{ /images[1] }}
+            </div>
+            <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+                {{ images[2] }}
+                    <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
+                {{ /images[2] }}
+            </div>
+        </div>
+        <div class="aspect-h-5 aspect-w-4 lg:aspect-h-4 lg:aspect-w-3 sm:overflow-hidden sm:rounded-lg">
+            {{ images[3] }}
+                <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
+            {{ /images[3] }}
+        </div>
+    </div>
+</div>
+{{ /value }}

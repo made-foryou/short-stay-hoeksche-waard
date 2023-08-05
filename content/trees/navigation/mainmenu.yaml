@@ -1,0 +1,21 @@
+tree:
+  -
+    id: 9e359217-ebb8-4f53-a816-fb055991efa0
+    title: Home
+    url: '#home'
+  -
+    id: 5a46a57a-49fb-4613-9a99-9c57a7003f55
+    title: 'Over het huis'
+    url: '#over-het-huis'
+  -
+    id: 1caed23d-2455-4cfb-a1d8-6649d71125a6
+    title: Leefruimte
+    url: '#leefruimte'
+  -
+    id: a622bacd-62fa-4668-921f-bccbe1af75d0
+    title: "Foto's"
+    url: '#fotos'
+  -
+    id: 38cfd957-4b07-4e27-9bb4-902448b6971c
+    title: 'Interesse?'
+    url: '#interesse'

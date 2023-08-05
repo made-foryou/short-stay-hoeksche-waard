@@ -1,0 +1,16 @@
+name: 'Menno Tempelaar'
+super: true
+id: 9d63a353-a295-4ab7-acaa-025f699d58b7
+password_hash: $2y$10$Lib94hfLhKUaNiE1SUOh7e7y1zIQQUvVOI4sAnikYEGxYlkGwwx3C
+preferences:
+  assets:
+    assets:
+      mode: grid
+  forms:
+    registration_form:
+      columns:
+        - datestamp
+        - name
+        - phone_number
+        - mail
+        - message

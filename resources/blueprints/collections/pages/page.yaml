@@ -1,0 +1,501 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: editor
+            field: content.editor
+            config:
+              sets:
+                hero:
+                  display: Hero
+                  instructions: null
+                  icon: null
+                  sets:
+                    with_image_tiles:
+                      display: 'With image tiles'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Title
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: content
+                          field:
+                            antlers: false
+                            type: textarea
+                            display: Content
+                            icon: textarea
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: assets
+                          field:
+                            max_files: 5
+                            mode: grid
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Assets
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                product_features:
+                  display: 'Product features'
+                  instructions: null
+                  icon: null
+                  sets:
+                    with_header_images_and_descriptions:
+                      display: 'With header, images and descriptions'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Titel
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: introduction
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: true
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: false
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: Introductie
+                            icon: bard
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: image_1
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Afbeelding #1'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: description_image_1
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: false
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: false
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: 'Omschrijving afbeelding #1'
+                            icon: bard
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: image_2
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Afbeelding #2'
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: description_image_2
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: true
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: false
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: 'Omschrijving afbeelding 2'
+                            icon: bard
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                stats:
+                  display: Stats
+                  instructions: null
+                  icon: null
+                  sets:
+                    simple-grid:
+                      display: simple-grid
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Titel
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: subtitle
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Sub titel'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: stat_items
+                          field:
+                            collapse: false
+                            previews: true
+                            fullscreen: true
+                            sets:
+                              new_set_group:
+                                display: 'New Set Group'
+                                instructions: null
+                                icon: null
+                                sets:
+                                  statistiek:
+                                    display: Statistiek
+                                    instructions: null
+                                    icon: null
+                                    fields:
+                                      -
+                                        handle: stat
+                                        field:
+                                          input_type: text
+                                          antlers: false
+                                          type: text
+                                          display: stat
+                                          icon: text
+                                          listable: hidden
+                                          instructions_position: above
+                                          visibility: visible
+                                          hide_display: false
+                                      -
+                                        handle: description
+                                        field:
+                                          input_type: text
+                                          antlers: false
+                                          type: text
+                                          display: Omschrijving
+                                          icon: text
+                                          listable: hidden
+                                          instructions_position: above
+                                          visibility: visible
+                                          hide_display: false
+                            type: replicator
+                            display: Statistieken
+                            icon: replicator
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            max_sets: 4
+                gallery:
+                  display: Gallery
+                  instructions: null
+                  icon: null
+                  sets:
+                    image-grid:
+                      display: 'Afbeeldingen grid'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: images
+                          field:
+                            max_files: 4
+                            min_files: 4
+                            mode: grid
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Afbeeldingen
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                    masonry:
+                      display: Masonry
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: images
+                          field:
+                            mode: grid
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: Afbeeldingen
+                            icon: assets
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                form:
+                  display: Form
+                  instructions: null
+                  icon: null
+                  sets:
+                    form:
+                      display: Form
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: form_field
+                          field:
+                            max_items: 1
+                            type: form
+                            display: 'Form Field'
+                            icon: form
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

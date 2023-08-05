@@ -1,0 +1,20 @@
+{{ value }}
+<div class="bg-white py-8 sm:py-16" id="{{ content_id }}">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="grid gap-4">
+            {{ images }}
+
+                {{ if index % 4 === 0 and index !== 0 }}
+                </div>
+                <div class="grid gap-4">
+                {{ /if }}
+
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ url }}" alt="{{ alt }}">
+                </div>
+
+            {{ /images }}
+        </div>
+    </div>
+</div>
+{{ /value }}
