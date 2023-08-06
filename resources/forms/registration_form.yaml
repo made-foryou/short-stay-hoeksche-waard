@@ -4,3 +4,6 @@ email:
     id: lky40koo
     to: menno@made-foryou.nl
     subject: 'Nieuw interesse formulier'
+    html: vendor/notifications/email
+    text: vendor/notifications/email
+    markdown: true
