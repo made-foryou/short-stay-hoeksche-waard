@@ -41,7 +41,6 @@ editor:
         image_2: langestraat_2/recent---24-van-37-(1).jpeg
         description_image_2: '<p>De Langestraat 2 in &#039;s-Gravendeel ligt in het centrum, je kijkt hierbij uit op de grote kerk en ligt op steenworp afstand van verschillende supermarkten, Voorwinden en de Kreek.</p>'
         content_id: over-het-huis
-        title: Test
   -
     type: set
     attrs:
