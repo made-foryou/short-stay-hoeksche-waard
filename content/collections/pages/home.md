@@ -44,27 +44,6 @@ editor:
   -
     type: set
     attrs:
-      id: ll13bm5r
-      values:
-        type: text_line
-        content_id: tekst
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. '
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. '
-        title: Titel
-  -
-    type: set
-    attrs:
       id: lkvhrixz
       values:
         type: simple-grid
@@ -216,5 +195,5 @@ editor:
   -
     type: paragraph
 updated_by: 9d63a353-a295-4ab7-acaa-025f699d58b7
-updated_at: 1691423428
+updated_at: 1691430911
 ---
