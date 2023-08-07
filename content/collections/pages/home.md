@@ -175,6 +175,14 @@ editor:
   -
     type: set
     attrs:
+      id: ll16fj2s
+      values:
+        type: text_line
+        content_id: balkon
+        title: Balkon
+  -
+    type: set
+    attrs:
       id: lkvienxi
       values:
         type: image-grid
@@ -183,7 +191,7 @@ editor:
           - langestraat_2/recent---7-van-37-(1).jpeg
           - langestraat_2/recent---9-van-37-(1).jpeg
           - langestraat_2/recent---8-van-37-(1).jpeg
-        content_id: balkon
+        content_id: balkon-2
   -
     type: set
     attrs:
@@ -195,5 +203,5 @@ editor:
   -
     type: paragraph
 updated_by: 9d63a353-a295-4ab7-acaa-025f699d58b7
-updated_at: 1691430911
+updated_at: 1691431176
 ---
