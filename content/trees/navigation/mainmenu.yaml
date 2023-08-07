@@ -12,9 +12,17 @@ tree:
     title: Leefruimte
     url: '#leefruimte'
   -
-    id: a622bacd-62fa-4668-921f-bccbe1af75d0
-    title: "Foto's"
-    url: '#fotos'
+    id: fed3991a-71e1-4e23-9e81-477395b73aed
+    title: Benedenverdieping
+    url: '#beneden'
+  -
+    id: d152884b-3e86-403c-a0fa-e0140b0e4a25
+    title: Bovenverdieping
+    url: '#boven'
+  -
+    id: f941fb34-80fe-42c3-a372-7aee508dd2b1
+    title: Balkon
+    url: '#balkon'
   -
     id: 38cfd957-4b07-4e27-9bb4-902448b6971c
     title: 'Interesse?'
