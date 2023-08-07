@@ -25,8 +25,7 @@ editor:
       id: lkvh457g
       values:
         type: with_header_images_and_descriptions
-        title: 'Test feature'
-        introduction: '<p>Fusce condimentum dolor eget nisl venenatis blandit. Suspendisse potenti. Ut gravida odio quis justo laoreet venenatis. Nullam non quam bibendum, volutpat dolor eu, lacinia urna. Vivamus eleifend augue eget auctor aliquet. Cras in enim ut tortor blandit auctor quis at libero. Suspendisse sem nisl, auctor at neque ut, hendrerit euismod arcu. Phasellus a tempus purus, sit amet elementum sapien. Phasellus a varius metus.</p>'
+        introduction: '<ul><li><p>dwioabudiwba</p></li><li><p>doiwnadbwa</p></li><li><p>oibdoibwaobdwa</p></li></ul>'
         image_1: test/kara-eads-l7ewhkq1b2s-unsplash.jpg
         description_image_1:
           -
@@ -38,6 +37,30 @@ editor:
         image_2: test/jarek-ceborski-jn7uvecdf6u-unsplash.jpg
         description_image_2: '<p>Fusce condimentum dolor eget nisl venenatis blandit. Suspendisse potenti. Ut gravida odio quis justo laoreet venenatis. Nullam non quam bibendum, volutpat dolor eu, lacinia urna. Vivamus eleifend augue eget auctor aliquet. Cras in enim ut tortor blandit auctor quis at libero. Suspendisse sem nisl, auctor at neque ut, hendrerit euismod arcu. Phasellus a tempus purus, sit amet elementum sapien. Phasellus a varius metus.</p>'
         content_id: over-het-huis
+        title: Test
+  -
+    type: set
+    attrs:
+      id: ll13bm5r
+      values:
+        type: text_line
+        content_id: tekst
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. '
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. Dit is de inhoud van dit blok. '
+        title: Titel
+  -
+    type: paragraph
   -
     type: set
     attrs:
@@ -95,7 +118,7 @@ editor:
   -
     type: paragraph
 updated_by: 9d63a353-a295-4ab7-acaa-025f699d58b7
-updated_at: 1691250312
+updated_at: 1691426204
 ---
 ## Welcome to your brand new Statamic site!
 

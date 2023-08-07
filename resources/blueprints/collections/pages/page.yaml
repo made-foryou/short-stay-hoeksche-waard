@@ -480,6 +480,82 @@ tabs:
                             instructions_position: above
                             visibility: visible
                             hide_display: false
+                text:
+                  display: Tekst
+                  instructions: null
+                  icon: null
+                  sets:
+                    text_line:
+                      display: 'Tekst strook'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: content_id
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: 'Strook ID'
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                            validate:
+                              - required
+                              - string
+                        -
+                          handle: title
+                          field:
+                            input_type: text
+                            antlers: false
+                            type: text
+                            display: Titel
+                            icon: text
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
+                        -
+                          handle: content
+                          field:
+                            buttons:
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: false
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: false
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: Inhoud
+                            icon: bard
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            hide_display: false
   sidebar:
     display: Sidebar
     sections:

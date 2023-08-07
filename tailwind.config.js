@@ -7,7 +7,15 @@ module.exports = {
     './content/**/*.md'
   ],
   theme: {
-    extend: {},
+    extend: {
+        typography: (theme) => ({
+           DEFAULT: {
+               ul: {
+                   listStyleType: 'disc',
+               }
+           }
+        }),
+    },
   },
   plugins: [
     require('@tailwindcss/typography'),
