@@ -22,4 +22,8 @@
     {{ if value['type'] === 'form' }}
         {{ partial:forms/form }}
     {{ /if }}
+
+    {{ if value['type'] === 'text_line' }}
+        {{ partial:text/text }}
+    {{ /if }}
 {{ /foreach:editor }}
