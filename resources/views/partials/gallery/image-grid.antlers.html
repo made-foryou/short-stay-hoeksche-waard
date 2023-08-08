@@ -1,13 +1,13 @@
 {{ value }}
 <div class="bg-white py-8 sm:py-16" id="{{ content_id }}">
-    <div class="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
-        <div class="aspect-h-4 aspect-w-3 hidden overflow-hidden rounded-lg lg:block">
+    <div class="mx-auto px-4 mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-x-8 lg:px-8">
+        <div class="aspect-h-4 mb-6 aspect-w-3 overflow-hidden rounded-lg lg:mb-0 lg:block">
             {{ images[0] }}
                 <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
             {{ /images[0] }}
         </div>
-        <div class="hidden lg:grid lg:grid-cols-1 lg:gap-y-8">
-            <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg">
+        <div class="mb-6 lg:mb-0 lg:grid lg:grid-cols-1 lg:gap-y-8">
+            <div class="mb-6 aspect-h-2 aspect-w-3 overflow-hidden rounded-lg lg:mb-0">
                 {{ images[1] }}
                     <img src="{{ url }}" alt="{{ alt }}" class="h-full w-full object-cover object-center">
                 {{ /images[1] }}
