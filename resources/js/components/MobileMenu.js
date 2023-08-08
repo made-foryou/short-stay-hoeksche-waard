@@ -25,10 +25,12 @@ export default class MobileMenu {
          * @type {boolean}
          * @private
          */
-        this._show = (this._element.classList.contains('hidden'));
+        this._show = !(this._element.classList.contains('hidden'));
 
         for (const trigger of this._triggers) {
             trigger.addEventListener('click', () => {
+                console.log('show', this._show);
+
                 if (this._show) {
                     this.hide();
                 } else {
