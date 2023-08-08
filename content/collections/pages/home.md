@@ -29,7 +29,7 @@ editor:
       values:
         type: with_header_images_and_descriptions
         title: 'Over het huis'
-        introduction: '<p>Dit huis heeft naast de begane grond nog één verdieping erboven. Met zo&#039;n 102m2 gebruiksruimte en een totaal oppervlakte van 132m2, is dit ideaal voor 2 personen of een stel met een kind. Het bevat een balkon wat start boven de hal en doorloopt tot en met de fietsenschuur.</p><p>Het gehele huis is geïsoleerd en bevat zonnepanelen. Bij normaal gebruik van de voorzieningen is het hierdoor nagenoeg energie-neutraal.</p><blockquote><p><strong>Short Stay prijs voor het gemeubileerde huis: € 1750,- incl. gas/water/licht/internet - p/m</strong></p></blockquote>'
+        introduction: '<p>Dit huis heeft naast de begane grond nog één verdieping erboven. Met zo&#039;n 102m2 gebruiksruimte en een totaal oppervlakte van 132m2, is dit ideaal voor 2 personen of een stel met een kind. Het bevat een balkon wat start boven de hal en doorloopt tot en met de fietsenschuur. In de fietsenschuur vind je de wasmachine en droger die vrij te gebruiken zijn.</p><p>Het gehele huis is geïsoleerd en bevat zonnepanelen. Bij normaal gebruik van de voorzieningen is het hierdoor nagenoeg energie-neutraal.</p><blockquote><p><strong>Short Stay prijs voor het gemeubileerde huis: € 1750,- incl. gas/water/licht/internet - p/m</strong></p></blockquote>'
         image_1: langestraat_2/recent---6-van-37-(1).jpeg
         description_image_1:
           -
@@ -37,7 +37,7 @@ editor:
             content:
               -
                 type: text
-                text: 'Het huis heeft openbare parkeerplekken voor en naast het huis. Deze zijn gratis te gebruiken. De gordijnen zijn daarbij naar eigen wens en hoogte in te stellen. De bovenverdieping heeft draai-/kiepramen.'
+                text: 'Het huis heeft openbare parkeerplekken voor en naast het huis. Deze zijn gratis te gebruiken. '
         image_2: langestraat_2/recent---24-van-37-(1).jpeg
         description_image_2: '<p>De Langestraat 2 in &#039;s-Gravendeel ligt in het centrum, je kijkt hierbij uit op de grote kerk en ligt op steenworp afstand van verschillende supermarkten, Voorwinden en de Kreek.</p>'
         content_id: over-het-huis
@@ -58,8 +58,8 @@ editor:
             enabled: true
           -
             id: lkvi796h
-            stat: '1850'
-            description: Bouwjaar
+            stat: '2020'
+            description: 'Geheel gerenoveerd in'
             type: statistiek
             enabled: true
           -
@@ -90,7 +90,7 @@ editor:
             content:
               -
                 type: text
-                text: 'De woonkamer bevat een 55inch 4K tv met verschillende beschikbare apps als: NPO, Videoland, Netflix, Pathé thuis, Disney+, NLZiet etc. In de woonkamer vind je naast de televisie ook de eetkamertafel, zit hangmat en verschillende kasten om spullen in op te bergen.'
+                text: 'De woonkamer bevat een 55inch 4K tv met verschillende beschikbare apps als: NPO, Videoland, Netflix, Pathé thuis, Disney+, NLZiet etc. In de woonkamer vind je naast de televisie ook de eetkamertafel, zit hangmat en verschillende kasten om spullen in op te bergen. De gordijnen zijn daarbij naar eigen wens en hoogte in te stellen.'
         image_2: langestraat_2/recent---31-van-37-(1).jpeg
         description_image_2: '<p>De keuken bevat een barretje met 4 barkrukken. Ook kun je hier de potten, pannen en ander kookgerei vinden. Naast de standaard potten, pannen, borden, glazen en mokken, bevat de keuken ook:</p><p>6 pits gasfornuis, vaatwasser, koelkast &amp; vriezer, koffiezetapparaat, waterkoker, broodrooster, oven en magnetron.</p>'
         content_id: beneden
@@ -130,7 +130,7 @@ editor:
       id: ll0y05zc
       values:
         type: with_header_images_and_descriptions
-        introduction: '<p>De grootste slaapkamer van het huis bevat een tweepersoonsbed en een dubbele IKEA PAX-kast. In de kast vind je verschillende planken, lades en een gedeelte om kleding op te hangen aan kledinghangers.</p><p>Ook bevat deze kamer een plafond ventilator met lamp. De ventilator en lamp zijn beiden met een timer in te stellen.</p><p>Schuin tegenover de slaapkamer, vind je de wc van de bovenverdieping. Aan de andere kant, boven de trap, hangen nog 2 kasten aan het plafond waar overige kleding en spullen opgeborgen kunnen worden.</p><p>De bovenverdieping bevat een gebruiksruimte van 35m2.</p>'
+        introduction: '<p>De grootste slaapkamer van het huis bevat een tweepersoonsbed en een dubbele IKEA PAX-kast. In de kast vind je verschillende planken, lades en een gedeelte om kleding op te hangen aan kledinghangers.</p><p>Ook bevat deze kamer een plafond ventilator met lamp. De ventilator en lamp zijn beiden met een timer in te stellen. De gehele bovenverdieping heeft draai-/kiepramen.</p><p>Schuin tegenover de slaapkamer, vind je de wc van de bovenverdieping. Aan de andere kant, boven de trap, hangen nog 2 kasten aan het plafond waar overige kleding en spullen opgeborgen kunnen worden.</p><p>De bovenverdieping bevat een gebruiksruimte van 35m2.</p>'
         image_1: langestraat_2/recent---19-van-37-(1).jpeg
         image_2: langestraat_2/recent---37-van-37-(1).jpeg
         description_image_2: '<p></p>'
@@ -154,7 +154,7 @@ editor:
       id: ll0y71dx
       values:
         type: with_header_images_and_descriptions
-        introduction: '<p>Gelegen naast de grootste kamer, heeft het huis ook een kleinere slaapkamer. Deze slaapkamer bevat een bureau, bureaustoelen, een persoonsbed en een smalle kast in de muur. Je kunt deze kamer hierdoor ook goed inzetten als thuiswerkplek.</p>'
+        introduction: '<p>Gelegen naast de grootste kamer, heeft het huis ook een kleinere slaapkamer. Deze slaapkamer bevat een bureau, bureaustoelen, éénpersoonsbed en een smalle kast in de muur. Je kunt deze kamer hierdoor ook goed inzetten als thuiswerkplek.</p>'
         image_1: langestraat_2/recent---13-van-37-(1).jpeg
         image_2: langestraat_2/recent---16-van-37-(1).jpeg
         description_image_2: '<p></p>'
@@ -180,6 +180,19 @@ editor:
         type: text_line
         content_id: balkon
         title: Balkon
+        content:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'Het balkon is 30m2 groot en zit aan weerszijden van het huis. Deze is te bereiken met een kort paadje waar je via een deur op de eerste verdieping op komt. Het balkon heeft een barretje met hoge stoelen aan de linkerkant van het huis, in combinatie met ligstoelen. De rechterkant bevat twee banken. Aan weerszijden vind je meerdere stopcontacten en een lichtsnoer.'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                text: 'De kussens voor de stoelen en banken zijn vrij te gebruiken en liggen in de kast in de hal op de eerste verdieping.'
   -
     type: set
     attrs:
@@ -203,5 +216,5 @@ editor:
   -
     type: paragraph
 updated_by: 9d63a353-a295-4ab7-acaa-025f699d58b7
-updated_at: 1691431176
+updated_at: 1691484094
 ---
