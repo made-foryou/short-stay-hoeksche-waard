@@ -13,6 +13,35 @@ tabs:
               validate:
                 - required
           -
+            handle: share_title
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Share titel'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
+            handle: share_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Share afbeelding'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              hide_display: false
+          -
             handle: editor
             field: content.editor
             config:
